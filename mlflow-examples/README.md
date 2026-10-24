@@ -11,7 +11,7 @@ This folder contains example code that shows how you can authenticate with your 
 
 ## Prerequisites
 
-- Python 3.10+
+- Python 3.11+
 - [uv](https://docs.astral.sh/uv/) (pip should work as well with some tweaking)
 - A running MLflow deployment on Railway
 

@@ -3,7 +3,7 @@ name = "mlflow-dev-template"
 version = "1.0.0"
 description = "MLflow development environment template for connecting to remote tracking servers"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 authors = [
     {name = "Mykal Machon", email = "mykal@tinybox.dev"},
 ]
@@ -29,7 +29,7 @@ packages = ["."]
 only-include = ["*.py", "*.md", "*.toml", ".env.example"]
 
 [tool.ruff]
-target-version = "py310"
+target-version = "py311"
 line-length = 88
 
 [tool.ruff.lint]
@@ -54,7 +54,7 @@ quote-style = "double"
 indent-style = "tab"
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
